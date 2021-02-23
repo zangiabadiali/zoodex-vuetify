@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,iBAAiB,CAAC;EAChB,OAAO,EAAE,KAAK;EACd,IAAI,EAAE,QAAQ;EACd,MAAM,EAAE,IAAI;EACZ,SAAS,EAAE,IAAI;EACf,QAAQ,EAAE,IAAI;EACd,QAAQ,EAAE,QAAQ;CAQH;;AANd,AAAD,4BAAY,CAAC;EACX,OAAO,EAAE,KAAK;CAAG;;AAElB,AAAD,uBAAO,CAAC;EACN,IAAI,EAAE,CAAC;EACP,QAAQ,EAAE,QAAQ;EAClB,KAAK,EAAE,CAAC;CAAG",
+    "sources": [
+        "VVirtualScroll.sass"
+    ],
+    "names": [],
+    "file": "VVirtualScroll.css"
+}

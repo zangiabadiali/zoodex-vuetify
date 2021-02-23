@@ -1,0 +1,87 @@
+.v-card::before {
+  border-radius: inherit !important;
+}
+
+.text-mono {
+  font-family: monospace;
+}
+
+.markdown-body a:not(:hover) {
+  text-decoration: none;
+}
+
+.markdown-body > section section {
+  margin-bottom: 3rem;
+}
+
+h1 + p {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+ul, ol {
+  margin-bottom: .5rem;
+}
+
+.flex-1-1-auto {
+  -webkit-box-flex: 1 !important;
+      -ms-flex: 1 1 auto !important;
+          flex: 1 1 auto !important;
+}
+
+.flex-1-0-auto {
+  -webkit-box-flex: 1 !important;
+      -ms-flex: 1 0 auto !important;
+          flex: 1 0 auto !important;
+}
+
+.flex-0-1-auto {
+  -webkit-box-flex: 0 !important;
+      -ms-flex: 0 1 auto !important;
+          flex: 0 1 auto !important;
+}
+
+.flex-0-0-auto {
+  -webkit-box-flex: 0 !important;
+      -ms-flex: 0 0 auto !important;
+          flex: 0 0 auto !important;
+}
+
+.flex-1-1-100 {
+  -webkit-box-flex: 1 !important;
+      -ms-flex: 1 1 100% !important;
+          flex: 1 1 100% !important;
+}
+
+.position-relative {
+  position: relative !important;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.overflow-y-scroll {
+  overflow-y: scroll;
+}
+
+.theme--light .v-bar--underline,
+.theme--dark .v-bar--underline {
+  border-width: 0 0 thin 0;
+  border-style: solid;
+}
+
+.theme--light .v-bar--underline.theme--light,
+.theme--dark .v-bar--underline.theme--light {
+  border-bottom-color: #0000001F !important;
+}
+
+.theme--light .v-bar--underline.theme--dark,
+.theme--dark .v-bar--underline.theme--dark {
+  border-bottom-color: #FFFFFF1F !important;
+}
+
+.token {
+  background: none !important;
+}
+/*# sourceMappingURL=overrides.css.map */
